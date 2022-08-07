@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>coaching Institute</title>
+
+
+    <style>
+        body {
+            background-image: url("pic8.jpg");
+        }
+
+
+
+        .container {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+            width: 30%;
+        }
+
+        #btn {
+            background-color: blue;
+            border: none;
+            font-size: 15px;
+            cursor: pointer;
+            margin: 4px 2px;
+            padding: 10px 20px;
+        }
+
+        #btn:hover {
+            background-color: black;
+
+        }
+
+        .image {
+            position: relative;
+            float: right;
+            bottom: 341px;
+            width: 20px;
+            height: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="navbar" ; style="background-color: black; padding: 15px; margin: auto;">
+
+            <a style="color: seashell; margin-right: 10px; font-size: 120%; text-decoration: none;"
+                href="home.html">Home</a></style>
+            <a style="color: seashell; margin-right: 10px;font-size: 120%; text-decoration: none;"
+                href="aboutus.html">About us</a>
+            <a style="color: seashell; margin-right: 10px;font-size: 120%; text-decoration: none;"
+                href="course.html">Course List</a>
+            <a style="color: seashell; margin-right: 10px;font-size: 120%; text-decoration: none;"
+                href="contactus.html">Contact us</a>
+
+        </div>
+    </nav>
+    <h1>Contact Form</h1>
+    <div class="container">
+
+        <form action="home.html" onsubmit="myfunction()">
+            <label for="name"> Name: </label>
+            <input type="text" style="width: 100%;" placeholder="Your name.." required><br><br>
+            <label> Email: </label>
+            <input type="email" style="width: 100%;" placeholder="email.." required></br><br>
+            <label>Mobile No.:</label>
+            <input type="number" style="width: 100%;" placeholder="mobile no.." required><br><br>
+            <input type="submit" id="btn" style="color:white;" value="Submit">
+
+        </form>
+        <script>
+            function myfunction() {
+                alert("The form was Submitted");
+            }
+        </script>
+
+    </div>
+    <div class="image">
+        <img src="../assignment2/pic5.png" style="float: right;">
+    </div>
+</body>
+
+</html>
